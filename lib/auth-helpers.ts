@@ -1,5 +1,5 @@
 import { getSession } from "./auth"
-import { getParticipantById } from "./db"
+import { getParticipantById } from "./notion-store"
 
 export async function getCurrentUser() {
   const session = await getSession()
